@@ -49,14 +49,21 @@ body {
 	border-radius: 3em;
 	margin: -1.5em;
 }
-
+.linkedin span {
+	background-color: #4393BB;
+}
+.pinterest span {
+	background-color: #C92228;
+}
 .twitter span {
 	background-color: #4099ff;
 }
 .facebook span {
 	background-color: #3B5998;
 }
-
+.google-plus span {
+	background-color: #db5a3c;
+}
 /* Iconos */
 .icon-button i {
 	background: none;
@@ -72,14 +79,21 @@ body {
 	width: 3em;
 	z-index: 2;
 }
-
+.icon-button .icon-linkedin {
+	color: #4393BB;
+}
+.icon-button .icon-pinterest {
+	color: #C92228;
+}
 .icon-button .icon-twitter {
 	color: #4099ff;
 }
 .icon-button .icon-facebook {
 	color: #3B5998;
 }
-
-.icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook {
+.icon-button .icon-google-plus {
+	color: #db5a3c;
+}
+.icon-button:hover .icon-linkedin, .icon-button:hover .icon-pinterest, .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-google-plus {
 	color: white;
 }
