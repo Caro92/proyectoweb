@@ -1,0 +1,132 @@
+body{
+	background-image:url(../imagen/imagen_index/Long_Distance_Running.jpg);
+	background-size: cover;
+	background-position:center;
+}
+
+h1, h2, h3{
+	margin:0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+
+#contenedor{
+	background-color:#FFFFFF;
+	padding-bottom:10px;
+	padding-top:20px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#animacion{
+	padding:0px;
+	width:700px;
+	float:left;
+	background:#602AE4;
+}
+
+#registro{
+	padding:0px;
+	width:300px;
+	float:right;
+	background:#1C35FF;
+}
+
+#banner{
+	width:1000px;
+	text-align:center;
+	font-weight:bold;
+	background-color:#FB0004;
+	clear:both;
+}
+
+#menu{
+	width:1000px;
+	text-align:center;
+	background-color:#5A5555;
+	color:white;
+}
+
+#contenido{
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#0D9650;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#cont_a{
+	padding:0px;
+	width:300px;
+	float:left;
+	background-color:#0095BB;
+}
+
+#cont_b{
+	padding:0px;
+	width:700px;
+	float:right;
+	background:#FFA600;
+}
+
+#main_b1{
+	padding:0px;
+	width:700px;
+	float:right;
+	background:#602AE4;
+}
+
+#main_b2{
+	padding:0px;
+	width:700px;
+	float:right;
+	background:#C344DF;
+}
+
+#main_b3{
+	padding:0px;
+	width:700px;
+	float:right;
+	background:#602AE4;
+}
+
+#submenu{
+	background-color:#5A5555;
+	padding:5px;
+	padding-top:10px;
+}
+
+#menu1{
+	width:330px;
+	float:right;
+	background: #DD7F81;
+	text-align:left;
+	list-style-type:none;
+}
+
+#menu2{
+	width:330px;
+	float:right;
+	background: #3BA7B8;
+	text-align:left;
+	list-style-type:none;
+}
+
+#menu3{
+	width:330px;
+	float:right;
+	background:DD7F81;
+	text-align:left;
+	list-style-type:none;
+}
+#footer{
+	clear:both;
+	text-align:center;
+	background-color:#5A5555;
+	color:white;
+	text-shadow:2px;
+	
+}
+
