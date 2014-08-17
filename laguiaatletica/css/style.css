@@ -64,10 +64,10 @@ h3{
 
 #banner{
 	width:1000px;
-	text-align:center;
-	font-weight:bold;
+	align-content:center;
 	background-color:#FB0004;
 	clear:both;
+	animation:alternate;
 }
 
 #menu{
