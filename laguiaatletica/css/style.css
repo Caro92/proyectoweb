@@ -33,6 +33,10 @@ h3{
 	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;;
 	src:url(file:///C|/proyectoweb/laguiaatletica/fonts/Oswald/Oswald-Regular.ttf), format("truetype");
 	}
+	
+#animacion1{
+}
+
 #contenedor{
 	background-color:#FFFFFF;
 	padding-bottom:10px;
@@ -71,76 +75,7 @@ h3{
 	text-align:center;
 	background-color:#5A5555;
 	color:white;
-	
-	nav ul ul {
-	display: none;
-}
-
-	nav ul li:hover > ul {
-		display: block;
-		
-	}
-	
-nav ul {
-	background: #29b6f6; 
-	background: linear-gradient(top, #29b6f6 0%, #01579b 100%);  
-	background: -moz-linear-gradient(top, #29b6f6 0%, #01579b 100%); 
-	background: -webkit-linear-gradient(top, #29b6f6 0%,#01579b 100%); 
-	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	padding: 0 65px;
-	border-radius: 10px;  
-	list-style: none;
-	position: relative;
-	display: inline-table;
-	
-	}
-	nav ul:after {
-		content: ""; clear: both; display: block;
-		margin: 100px auto;
-	}
-	
-	nav ul li {
-	float: left;
-}
-	nav ul li:hover {
-		background: #29b6f6;
-		background: linear-gradient(top, #29b6f6 0%, #01579b 40%);
-		background: -moz-linear-gradient(top, #29b6f6 0%, #01579b 40%);
-		background: -webkit-linear-gradient(top, #29b6f6 0%, #01579b 40%);
-	}
-		nav ul li:hover a {
-			color: #fff;
-		}
-	
-	nav ul li a {
-		display: block; padding: 10px 40px;
-		color: #e1f5fe; text-decoration: none;
-	}
-	
-	nav ul ul {
-	background: linear-gradient(top, #4f5964 0%, #5f6975 40%); border-radius: 0px; padding: 0;
-	position: absolute; top: 100%;
-	
-}
-	nav ul ul li {
-		float: none; 
-		border-top: 0px solid #6b727c;
-		border-bottom: 0px solid #575f6a;
-		position: relative;
-		
-	}
-		nav ul ul li a {
-			padding: 10px 40px;
-			color: #fff;
-		}	
-	
-			nav ul ul li a:hover {
-				background: #2a36b1;
-			}
-			
-			nav ul ul ul {
-	position: relative; left: 0%; top:0;
-}
+	padding:0;
 }
 
 #contenido{
