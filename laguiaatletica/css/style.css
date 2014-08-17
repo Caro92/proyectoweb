@@ -4,9 +4,17 @@ body{
 	background-position:center;
 }
 
-h1, h2, h3{
-	margin:0;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+h2, h3{
+	margin:1;
+	font-variant:small-caps;
+	font-family:"Oswald", impact;
+	src:url(file:///C|/proyectoweb/laguiaatletica/fonts/Oswald/Oswald-Regular.ttf), format("truetype");
+	}
+
+h1{
+	margin:1;
+	font-family:"Oswald", impact;
+	src:url(file:///C|/proyectoweb/laguiaatletica/fonts/Oswald/Oswald-Regular.ttf), format("truetype");
 	}
 
 #contenedor{
@@ -94,8 +102,8 @@ h1, h2, h3{
 
 #submenu{
 	background-color:#5A5555;
-	padding:5px;
-	padding-top:10px;
+	padding-bottom:20px;
+	padding-top:20px;
 }
 
 #menu1{
@@ -121,6 +129,7 @@ h1, h2, h3{
 	text-align:left;
 	list-style-type:none;
 }
+
 #footer{
 	clear:both;
 	text-align:center;
