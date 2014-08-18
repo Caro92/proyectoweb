@@ -38,11 +38,6 @@ nav ul ul {
 			color: #fff;
 		}
 	
-	nav ul li a {
-		display: block; padding: 10px 40px;
-		color: #e1f5fe; text-decoration: none;
-	}
-	
 	nav ul ul {
 	background: linear-gradient(top, #4f5964 0%, #5f6975 40%); border-radius: 0px; padding: 0;
 	position: absolute; top: 100%;
