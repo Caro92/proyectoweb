@@ -1,5 +1,5 @@
 nav ul ul {
-	display: none;
+	display: true;
 }
 
 	nav ul li:hover > ul {
