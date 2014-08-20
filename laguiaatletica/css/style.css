@@ -16,12 +16,12 @@ h1{
 }
 
 h2{
-	color:#FFFFFF;
-	margin:0;
+	color:#0084FF;
+	margin:1;
 	font-variant:normal;
 	font-size:18px;
 	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	src:url(../fonts/Oswald/Oswald-Regular.ttf), format("truetype");
+	src:url(../fonts/Oswald/Oswald-Light.ttf), format("truetype");
 	}
 	
 h3{
@@ -89,7 +89,6 @@ h3.espacial{
 	text-align:center;
 	padding-top:20px;
 	padding-bottom:20px;
-	background-color:#0D9650;
 	color:white;
 	margin-left:auto;
 	margin-right:auto;
@@ -105,28 +104,24 @@ h3.espacial{
 	padding:0px;
 	width:700px;
 	float:right;
-	background:#FFA600;
 }
 
 #main_b1{
 	padding:0px;
 	width:700px;
 	float:right;
-	background:#602AE4;
 }
 
 #main_b2{
 	padding:0px;
 	width:700px;
 	float:right;
-	background:#CD1215;
 }
 
 #main_b3{
 	padding:0px;
 	width:700px;
 	float:right;
-	background:#602AE4;
 }
 
 #submenu{
