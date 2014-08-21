@@ -1,0 +1,333 @@
+body{
+	background-size: cover;
+	background-position:center;
+}
+	
+#bg1{
+	background-image:url(../imagen/imagen_index/Long_Distance_Running.jpg);
+}
+#bg2{
+	background-image: url(../imagen/imgcalendario/calendario.jpg);
+}
+#bg3{
+	background-image:url(../imagen/imgentrenamiento/entrenamiento.jpg)
+}
+#bg4{
+	background-image: url(../imagen/imgnutricion/nutricion.jpg);
+}
+#bg5{
+	background-image: url(../imagen/imgmaraton/maraton.jpg);
+}
+#bg6{
+	background-image: url(../imagen/imgcontactanos/Long_Distance_Running.jpg);
+}
+	
+
+a{
+	text-decoration:none;
+	color:black;
+}
+h1{
+	color:#0084FF;
+	margin:0;
+	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	src : url(../fonts/Oswald/Oswald-Regular.ttf), format("truetype");
+}
+h2{
+	color:#0084FF;
+	margin:1;
+	font-variant:normal;
+	font-size:18px;
+	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	src : url(../fonts/Oswald/Oswald-Light.ttf), format("truetype");
+	}
+h3{
+	color: #00FBFF;
+	margin:1;
+	font-variant:small-caps;
+	font-size: larger;
+	font-weight:lighter;
+	font-size:20px;
+	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	src : url(../fonts/Oswald/Oswald-Regular.ttf), format("truetype");
+	}
+	
+h3.espacial{
+	opacity:0.8;
+	color:#DDDDDD;
+	margin:0;
+	font-variant:small-caps;
+	font-size:22px;
+	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	src:url(../fonts/Oswald/Oswald-Regular.ttf), format("truetype");
+}
+
+
+h2.left1{
+	padding-left:30px;
+	text-align:justify;
+	color:#00ABFF;
+	margin:5;
+	font-variant:normal;
+	font-size:16px;
+	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	src:url(../fonts/Oswald/Oswald-Light.ttf), format("truetype");
+}
+
+h2.left2{
+	opacity:0.7;
+	padding-top:20px;
+	padding-bottom:30px;
+	padding-left:30px;
+	text-align:justify;
+	color: #001DFF;
+	margin:5;
+	font-variant:normal;
+	font-size:16px;
+	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	src:url(../fonts/Oswald/Oswald-Light.ttf), format("truetype");
+}
+
+#animacion1{
+}
+
+#contenedor{
+	padding-bottom:10px;
+	padding-top:20px;
+	padding-left:5px;
+	padding-right:5px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#animacion{
+	padding:0px;
+	width:700px;
+	float:left;
+}
+
+#registro{
+	padding:0px;
+	width:300px;
+	float:right;
+}
+
+#banner{
+	width:1000px;
+	align-content:center;
+	clear:both;
+	animation:alternate;
+}
+
+#menu{
+	width:1000px;
+	text-align:center;
+	color:white;
+	padding:0;
+}
+
+#contenido{
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#cont_a{
+	padding:0px;
+	width:300px;
+	float:left;
+}
+
+#cont_b{
+	padding:0px;
+	width:700px;
+	float:right;
+}
+
+#main_b1{
+	padding:0px;
+	width:700px;
+	float:right;
+}
+
+#main_b2{
+	padding:0px;
+	width:700px;
+	float:right;
+}
+
+#main_b3{
+	padding:0px;
+	width:700px;
+	float:right;
+}
+
+#submenu{
+	padding-top:10px;
+	padding-bottom:30px;
+}
+
+#submenu .selected{
+	font-variant:small-caps;
+	font-weight:bold;
+	font-size:20px;
+	padding-bottom:10px;
+	text-align:left;
+	text-shadow:2px;	
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+#menu1{
+	width:330px;
+	float:left;
+	text-align:left;
+	list-style-type:none;
+	background:#323232;
+	opacity:0.7;
+	
+}
+
+#menu2{
+	width:330px;
+	float:left;
+	text-align:left;
+	list-style-type:none;
+	background:#323232;
+	opacity:0.7;
+}
+
+#menu3{
+	width:330px;
+	float:left; 
+	text-align:left;
+	list-style-type:none;
+	background:#323232;
+	opacity:0.7;
+}
+
+#bannerinferior{
+	clear:both;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+#footer{
+	clear:both;
+	text-align:center;
+	background-color:#000000;
+	opacity:0.5;
+	color:white;
+	text-shadow:2px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+<!--EFECTO DE LAS IMAGENES DEL INDEX-->
+*{margin:0;padding:0;}
+
+.wrapper{
+	margin:0 auto;
+	width:auto; <!--se puede remplazar por el tamaño-->
+	padding:10px;
+	position:relative;
+}
+
+.left{float:left;}
+.right{float:right;}
+hr{
+	border:none;
+	width:100%;height:3px;
+	background:url(../images/divider.png) repeat-x;
+	margin:10px 0 10px 0;
+	clear:both;
+}
+p,span{
+	color:#096;
+	display:inline;
+	font-size:12px;
+	text-shadow:1px 1px #efefef;
+}
+a{
+	text-shadow:1px 1px #efefef;
+	text-decoration:none;
+}
+
+/* ********************************************************************************
+		CSS3 STYLING
+********************************************************************************** */
+.single-set{
+	overflow:hidden;
+	padding:30px 10px 15px 10px ;
+}
+.container1{
+	border:10px solid #fff;
+	position:relative;
+	overflow:hidden;
+	height:200px;
+	opacity:0.5;
+	
+	-webkit-box-shadow:0 0 3px #000;
+	-moz-box-shadow:0 0 3px #000;
+	box-shadow:0 0 3px #000;
+	
+	 -webkit-transition: all .5s ease-out;
+	 -moz-transition: all .5s ease-out;
+	 transition: all .5s ease-out;
+}
+.container1:hover{
+	opacity:1;
+	cursor:pointer;
+	-webkit-box-shadow:0 0 10px #000;
+	-moz-box-shadow:0 0 10px #000;
+	box-shadow:0 0 10px #000;
+}
+.text{
+ background:rgba(0,0,0,0.5);
+ color:white;
+ font:14px Georgia,serif;
+ height:auto;width:inherit;
+ position:absolute;
+}
+.text a{
+	color:#fff;  
+ display:block; 
+ padding:15px; 
+ font-size:16px;
+ font-weight:normal;
+ text-shadow:none;
+ text-decoration:none;
+ width:680px;
+}
+
+/* CSS3 Right Effect */
+article.css3-3
+{
+ right:-680px;top:0;
+ -webkit-transition: all .5s ease-out;
+ -moz-transition: all .5s ease-out;
+ -o-transition: all .5s ease-out;
+ transition: all .5s ease-out;
+ width:680px;
+}
+.text a.css3-3{
+ -webkit-transition: all .4s ease-out;
+ -moz-transition: all .4s ease-out;
+ -o-transition: all .5s ease-out;
+ transition: all .4s ease-out;
+}
+.text a.css3-3:hover{  
+ color: #3FF;
+ text-decoration:overline;
+ text-decoration:none;  
+}
+.container1:hover article.css3-3{
+ right:0;
+}
+<!--FINAL FINAL EFECTO DE LAS IMAGENES DEL INDEX-->
+
+
