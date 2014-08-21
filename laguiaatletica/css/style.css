@@ -2,19 +2,37 @@ body{
 	background-size: cover;
 	background-position:center;
 }
+	
+#bg1{
+	background-image:url(../imagen/imagen_index/Long_Distance_Running.jpg);
+}
+#bg2{
+	background-image: url(../imagen/imgcalendario/calendario.jpg);
+}
+#bg3{
+	background-image:url(../imagen/imgentrenamiento/entrenamiento.jpg)
+}
+#bg4{
+	background-image: url(../imagen/imgnutricion/nutricion.jpg);
+}
+#bg5{
+	background-image: url(../imagen/imgmaraton/maraton.jpg);
+}
+#bg6{
+	background-image: url(../imagen/imgcontactanos/Long_Distance_Running.jpg);
+}
+	
 
 a{
 	text-decoration:none;
 	color:black;
 }
-
 h1{
 	color:#0084FF;
 	margin:0;
 	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	src:url(fonts/Oswald/Oswald-Regular.ttf), format("truetype");
 }
-
 h2{
 	color:#0084FF;
 	margin:1;
@@ -23,7 +41,6 @@ h2{
 	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	src:url(../fonts/Oswald/Oswald-Light.ttf), format("truetype");
 	}
-	
 h3{
 	color: #00FBFF;
 	margin:1;
