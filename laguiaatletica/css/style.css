@@ -31,7 +31,7 @@ h1{
 	color:#0084FF;
 	margin:0;
 	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	src:url(fonts/Oswald/Oswald-Regular.ttf), format("truetype");
+	src : url(../fonts/Oswald/Oswald-Regular.ttf), format("truetype");
 }
 h2{
 	color:#0084FF;
@@ -39,7 +39,7 @@ h2{
 	font-variant:normal;
 	font-size:18px;
 	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	src:url(../fonts/Oswald/Oswald-Light.ttf), format("truetype");
+	src : url(../fonts/Oswald/Oswald-Light.ttf), format("truetype");
 	}
 h3{
 	color: #00FBFF;
@@ -49,7 +49,7 @@ h3{
 	font-weight:lighter;
 	font-size:20px;
 	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	src:url(../fonts/Oswald/Oswald-Regular.ttf), format("truetype");
+	src : url(../fonts/Oswald/Oswald-Regular.ttf), format("truetype");
 	}
 	
 h3.espacial{
@@ -59,8 +59,9 @@ h3.espacial{
 	font-variant:small-caps;
 	font-size:22px;
 	font-family:"Oswald", impact, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	src:url(../fonts/Oswald/Oswald-Bold.ttf), format("truetype");
+	src:url(../fonts/Oswald/Oswald-Regular.ttf), format("truetype");
 }
+
 
 h2.left1{
 	padding-left:30px;
