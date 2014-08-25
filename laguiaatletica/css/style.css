@@ -89,6 +89,9 @@ h2.left2{
 }
 
 #animacion1{
+	float:none;
+	clear:both;
+	
 }
 
 #contenedor{
@@ -104,6 +107,22 @@ h2.left2{
 #animacion{
 	padding:0px;
 	width:700px;
+	float:left;
+}
+
+#animacion3{
+	padding:0px;
+	width:200px;
+	float:left;
+}
+#animacion4{
+	padding:0px;
+	width:550px;
+	float:left;
+}
+#animacion5{
+	padding:0px;
+	width:250px;
 	float:left;
 }
 
